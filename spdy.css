@@ -1,0 +1,13 @@
+.content {
+  color: black;
+  font-family: helvetica, arial;
+}
+h1, h2 {
+  color: #00F;
+  font-weight:bold;
+}
+.content::after {
+  position: absolute;
+  right: 120px;
+  bottom: 120px;
+}
